@@ -1,0 +1,175 @@
+/* Web Fonts ----------------------- */
+
+
+/* Base Styles --------------------- */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 1.25em; /* 20px on most screens */
+}
+img {
+  width: 100%; /* responsive images */
+}
+header{
+  background: url("../img/mountains.jpg") , coral;
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  max-width: 100%;
+
+}
+h1::after{
+  content: "\2193";
+  color: white;
+  display: block;
+  margin-top: 100px;
+  width: 100%;
+}
+.intro{
+  text-align: start;
+}
+span{
+  color: white;
+  text-align: center;
+  display: block;
+}
+body{
+  margin: 0;
+}
+h1{
+  padding-top: 10%;
+  font-size: 4rem;
+  color: aliceblue;
+  text-align: center;
+  width: 100%;
+  font-family: "Goyfont";
+}
+header{
+  padding: 300px;
+  width: 100%;
+}
+main section .intro{
+  width: 50%;
+  margin-left: 25%;
+  
+}
+.callout{
+  color: rgb(247, 240, 240);
+  
+  display: inline-block;
+  text-decoration: none;
+  background:linear-gradient(90deg ,rgb(228, 204, 156), rgb(152, 91, 17), rgb(218, 92, 29));
+  border-radius: 10%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 10%;
+  width: 200px;
+  height: 40px;
+  padding-top: 8px;
+  
+}
+.callout a {
+  box-shadow: inset rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: solid 1px;
+}
+
+#wildlife{
+  background: url(../img/bear.jpg);
+  height: 600px;
+  background-size: cover;
+  border-top: solid 10px orange;
+  width: 100%;
+  border-radius:10px ;
+  box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+  max-width: 100%;
+  border-bottom: solid 2px black;
+  margin-bottom: 100px;
+}
+#wildlife p{
+  padding: 10%;
+}
+h2{
+  color: aliceblue;
+  text-align: start;
+  padding: 10%;
+}
+p{
+  color: aliceblue;
+  text-align: start;
+  font-family: 'Work Sans', sans-serif;
+
+}
+a{
+  text-decoration: none;
+  color: orange;
+}
+.column{
+  display: inline-block;
+  width: 45%;
+  margin: auto;
+  vertical-align: top;
+  text-align: start;
+  
+  
+}
+.column p {
+  color: silver;
+  text-align: start;
+}
+ol{
+  color: silver;
+}
+.column img{
+  border-radius: 10px;
+}
+.intro{
+  color: silver;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+footer{
+  text-align: center;
+}
+footer p{
+  color: silver;
+  text-align: center;
+}
+section{
+  margin: 10%;
+  text-align: center;
+  border-bottom: dashed 1px silver;
+}
+
+.column:nth-child(2){
+  margin-left: 30px;
+  position: relative;
+}
+.column:nth-child(1){
+  margin-right: 30px;
+}
+@font-face {
+  font-family:"Goyfont";
+  src: url("../fonts/abolition-regular-webfont.woff") format("woff");
+}
+main{
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+
+}
+.column:hover::after{
+  position: absolute;
+  content: "\22A0 Save";
+  color: aliceblue;
+  background-color: rgb(158, 79, 27);
+  top: 10px;
+  left: 10px;
+  border-radius: 5px 0 0 0 ;
+}
+
+/* Main Styles --------------------- */
+
+
+/* Media Queries ------------------- */
+
